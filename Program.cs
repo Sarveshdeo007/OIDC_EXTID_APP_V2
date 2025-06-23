@@ -182,10 +182,10 @@ builder.WebHost.ConfigureKestrel(serverOptions =>
 });
 
 //// Configure HTTPS
-builder.Services.AddHttpsRedirection(options =>
-{
-    options.HttpsPort = 443;
-});
+//builder.Services.AddHttpsRedirection(options =>
+//{
+//    options.HttpsPort = 443;
+//});
 // Add Microsoft Identity Web UI
 builder.Services.AddRazorPages()
     .AddMicrosoftIdentityUI();
