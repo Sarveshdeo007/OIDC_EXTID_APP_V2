@@ -18,7 +18,7 @@ builder.Services.AddSession(options =>
     options.Cookie.IsEssential = true;
     options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
     options.Cookie.SameSite = SameSiteMode.Lax;
-    options.Cookie.Name = "OIDCDemoApp.Session";
+    options.Cookie.Name = "OIDC_EXTID_APP_V2.Session";
 });
 
 // Add HttpClient factory
@@ -105,7 +105,7 @@ builder.Services
                     ".AspNetCore.Cookies",
                     ".AspNetCore.OpenIdConnect.Nonce",
                     ".AspNetCore.OpenIdConnect.Correlation",
-                    "OIDCDemoApp.Session",
+                    "OIDC_EXTID_APP_V2.Session",
                     "msal.client.info",
                     "msal.error",
                     "msal.error.description",

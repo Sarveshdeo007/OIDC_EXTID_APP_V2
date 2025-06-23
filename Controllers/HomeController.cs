@@ -375,7 +375,7 @@ namespace OIDC_EXTID_APP_V2.Controllers
                 ".AspNetCore.Cookies",
                 ".AspNetCore.OpenIdConnect.Nonce",
                 ".AspNetCore.OpenIdConnect.Correlation",
-                "OIDCDemoApp.Session",
+                "OIDC_EXTID_APP_V2.Session",
                 "msal.client.info",
                 "msal.error",
                 "msal.error.description",
