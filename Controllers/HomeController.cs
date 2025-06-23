@@ -111,7 +111,7 @@ namespace OIDC_EXTID_APP_V2.Controllers
 
         public IActionResult Index()
         {
-            AddSecurityHeaders();
+            //AddSecurityHeaders();
             return View();
         }
 
