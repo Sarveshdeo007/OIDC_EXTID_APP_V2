@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Certificate\OIDC_SSL_Certificate.pfx" />
+    <Folder Include="Certificate/OIDC_SSL_Certificate.pfx" />
   </ItemGroup>
 
 </Project>
