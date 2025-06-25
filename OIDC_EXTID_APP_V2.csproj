@@ -16,8 +16,8 @@
     <PackageReference Include="Microsoft.Identity.Web.UI" Version="3.9.2" />
   </ItemGroup>
 
-  <ItemGroup>
+  <!--<ItemGroup>
     <Folder Include="Certificate/OIDC_SSL_Certificate.pfx" />
-  </ItemGroup>
+  </ItemGroup>-->
 
 </Project>
