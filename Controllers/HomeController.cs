@@ -43,16 +43,16 @@ namespace OIDC_EXTID_APP_V2.Controllers
         private void AddSecurityHeaders()
         {
             // Add security headers
-            Response.Headers.Add("X-Content-Type-Options", "nosniff");
-            Response.Headers.Add("X-Frame-Options", "DENY");
-            Response.Headers.Add("X-XSS-Protection", "1; mode=block");
-            Response.Headers.Add("Referrer-Policy", "strict-origin-when-cross-origin");
-            Response.Headers.Add("Content-Security-Policy", "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline';");
-            Response.Headers.Add("Strict-Transport-Security", "max-age=31536000; includeSubDomains");
-            Response.Headers.Add("Permissions-Policy", "geolocation=(), microphone=(), camera=()");
-            Response.Headers.Add("Cache-Control", "no-store, no-cache, must-revalidate, proxy-revalidate");
-            Response.Headers.Add("Pragma", "no-cache");
-            Response.Headers.Add("Expires", "0");
+            //Response.Headers.Add("X-Content-Type-Options", "nosniff");
+            //Response.Headers.Add("X-Frame-Options", "DENY");
+            //Response.Headers.Add("X-XSS-Protection", "1; mode=block");
+            //Response.Headers.Add("Referrer-Policy", "strict-origin-when-cross-origin");
+            //Response.Headers.Add("Content-Security-Policy", "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline';");
+            //Response.Headers.Add("Strict-Transport-Security", "max-age=31536000; includeSubDomains");
+            //Response.Headers.Add("Permissions-Policy", "geolocation=(), microphone=(), camera=()");
+            //Response.Headers.Add("Cache-Control", "no-store, no-cache, must-revalidate, proxy-revalidate");
+            //Response.Headers.Add("Pragma", "no-cache");
+            //Response.Headers.Add("Expires", "0");
         }
 
         private bool IsRateLimited(string key)
